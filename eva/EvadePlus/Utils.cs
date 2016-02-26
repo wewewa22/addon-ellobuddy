@@ -7,7 +7,7 @@ using EloBuddy.SDK.Rendering;
 using SharpDX;
 using Color = System.Drawing.Color;
 
-namespace EvadePlus
+namespace Né Đòn (Skil+
 {
     internal static class Utils
     {
