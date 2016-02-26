@@ -5,11 +5,11 @@ using EloBuddy.SDK;
 using EloBuddy.SDK.Menu.Values;
 using SharpDX;
 
-namespace Né Đòn (Skil+
+namespace EvadePlus
 {
     public static class EvadeSpellManager
     {
-        public static bool ProcessFlash(Né Đòn (Skil+ evade)
+        public static bool ProcessFlash(EvadePlus evade)
         {
             var dangerValue = evade.GetDangerValue();
             var flashDangerValue = EvadeMenu.SpellMenu["flash"].Cast<Slider>().CurrentValue;
@@ -39,7 +39,7 @@ namespace Né Đòn (Skil+
             return SpellSlot.Unknown;
         }
 
-        public static Vector2 GetBlinkCastPos(Né Đòn (Skil+ evade, Vector2 center, float maxRange)
+        public static Vector2 GetBlinkCastPos(EvadePlus evade, Vector2 center, float maxRange)
         {
             var polygons = evade.ClippedPolygons.Where(p => p.IsInside(center)).ToArray();
             var segments = new List<Vector2[]>();

@@ -23,7 +23,7 @@ namespace EvadePlus
                 return;
             }
 
-            MainMenu = EloBuddy.SDK.Menu.MainMenu.AddMenu("Né Đòn (Skil+)", "Né Đòn (Skil+)");
+            MainMenu = EloBuddy.SDK.Menu.MainMenu.AddMenu("EvadePlus)", "EvadePlus)");
 
             // Set up main menu
             MainMenu.AddGroupLabel("Cài đặt chung");

@@ -1,6 +1,6 @@
 ﻿using EloBuddy;
 
-namespace Né Đòn (Skil+
+namespace EvadePlus
 {
     public class SpellData
     {

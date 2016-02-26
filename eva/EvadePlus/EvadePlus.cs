@@ -10,9 +10,9 @@ using EloBuddy.SDK.Rendering;
 using SharpDX;
 using Color = System.Drawing.Color;
 
-namespace Né Đòn (Skil+
+namespace EvadePlus
 {
-    public class Né Đòn (Skil+
+    public class EvadePlus
     {
         #region Properties
 
@@ -96,13 +96,13 @@ namespace Né Đòn (Skil+
 
         #endregion
 
-        public Né Đòn (Skil+(SkillshotDetector detector)
+        public EvadePlus(SkillshotDetector detector)
         {
             Skillshots = new EvadeSkillshot[] {};
             Polygons = new Geometry.Polygon[] {};
             ClippedPolygons = new List<Geometry.Polygon>();
             PathFinding = new PathFinding(this);
-            StatusText = new Text("Né Đòn (Skil+ Enabled", new Font("Euphemia", 10F, FontStyle.Bold)); //Calisto MT
+            StatusText = new Text("EvadePlus Enabled", new Font("Euphemia", 10F, FontStyle.Bold)); //Calisto MT
             _skillshotPolygonCache = new Dictionary<EvadeSkillshot, Geometry.Polygon>();
 
             SkillshotDetector = detector;
@@ -264,7 +264,7 @@ namespace Né Đòn (Skil+
             if (DrawEvadeStatus)
             {
                 StatusText.Color = EvadeEnabled ? Color.White : Color.Red;
-                StatusText.TextValue = "Né Đòn (Skil+ " + (EvadeEnabled ? "Enabled" : "Disabled");
+                StatusText.TextValue = "EvadePlus " + (EvadeEnabled ? "Enabled" : "Disabled");
                 StatusText.Position = Player.Instance.Position.WorldToScreen() - new Vector2(StatusText.Bounding.Width / 2, -25);
                 StatusText.Draw();
             }
@@ -675,7 +675,7 @@ namespace Né Đòn (Skil+
 
         public class EvadeResult
         {
-            private Né Đòn (Skil+ Evade;
+            private EvadePlus Evade;
             private int ExtraRange { get; set; }
 
             public int Time { get; set; }
@@ -707,7 +707,7 @@ namespace Né Đòn (Skil+
                 }
             }
 
-            public EvadeResult(Né Đòn (Skil+ evade, Vector2 evadePoint, Vector2 anchorPoint, int totalTimeAvailable,
+            public EvadeResult(EvadePlus evade, Vector2 evadePoint, Vector2 anchorPoint, int totalTimeAvailable,
                 int timeAvailable,
                 bool enoughTime)
             {

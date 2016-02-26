@@ -2,7 +2,7 @@
 using EloBuddy.SDK;
 using SharpDX;
 
-namespace Né Đòn (Skil+
+namespace EvadePlus
 {
     public class EvadeSkillshot
     {

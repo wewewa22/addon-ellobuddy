@@ -4,13 +4,13 @@ using EloBuddy;
 using EloBuddy.SDK;
 using SharpDX;
 
-namespace Né Đòn (Skil+
+namespace EvadePlus
 {
     public class PathFinding
     {
-        public Né Đòn (Skil+ Evade;
+        public EvadePlus Evade;
 
-        public PathFinding(Né Đòn (Skil+ evade)
+        public PathFinding(EvadePlus evade)
         {
             Evade = evade;
         }

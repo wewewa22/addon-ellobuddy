@@ -7,8 +7,8 @@
     <ProjectGuid>{293C385A-2EB2-425A-808C-077B8298FCC9}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Né Đòn (Skil+</RootNamespace>
-    <AssemblyName>Né Đòn (Skil+</AssemblyName>
+    <RootNamespace>EvadePlus</RootNamespace>
+    <AssemblyName>EvadePlus</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -64,7 +64,7 @@
     <Compile Include="PathFinding.cs" />
     <Compile Include="SkillshotTypes\CircularMissileSkillshot.cs" />
     <Compile Include="EvadeMenu.cs" />
-    <Compile Include="Né Đòn (Skil+.cs" />
+    <Compile Include="EvadePlus.cs" />
     <Compile Include="AutoPathing.cs" />
     <Compile Include="EvadeSpellManager.cs" />
     <Compile Include="SkillshotTypes\LinearMissileSkillshot.cs" />
