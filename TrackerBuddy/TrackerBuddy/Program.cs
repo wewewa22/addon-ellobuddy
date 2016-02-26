@@ -17,7 +17,7 @@ using Color = System.Drawing.Color;
 using Font = System.Drawing.Font;
 using Sprite = EloBuddy.SDK.Rendering.Sprite;
 
-namespace TrackerBuddy3
+namespace TrackerBuddy
 {
     internal static class Program
     {
