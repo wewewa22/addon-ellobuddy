@@ -17,7 +17,7 @@ using Color = System.Drawing.Color;
 using Font = System.Drawing.Font;
 using Sprite = EloBuddy.SDK.Rendering.Sprite;
 
-namespace TrackerBuddy
+namespace Hiện thời  sử dụng gian Skill
 {
     internal static class Program
     {
