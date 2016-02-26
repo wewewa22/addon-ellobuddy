@@ -4,7 +4,7 @@ using EloBuddy.SDK;
 using EloBuddy.SDK.Menu;
 using EloBuddy.SDK.Menu.Values;
 
-namespace EvadePlus
+namespace Né Đòn (Skil+
 {
     internal class EvadeMenu
     {
