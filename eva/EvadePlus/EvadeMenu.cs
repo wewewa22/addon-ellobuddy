@@ -23,7 +23,7 @@ namespace EvadePlus
                 return;
             }
 
-            MainMenu = EloBuddy.SDK.Menu.MainMenu.AddMenu("EvadePlus)", "EvadePlus)");
+            MainMenu = EloBuddy.SDK.Menu.MainMenu.AddMenu("Né Tuyệt chiêu :V)", "Né Tuyệt chiêu tung Skill :D By KhoNan Demo)");
 
             // Set up main menu
             MainMenu.AddGroupLabel("Cài đặt chung");
@@ -39,23 +39,23 @@ namespace EvadePlus
             MainMenu.AddLabel("phát hiện chỉ có skillshots gần bạn, đề nghị: On");
             MainMenu.AddSeparator(3);
 
-            MainMenu.Add("recalculatePosition", new CheckBox("Allow recalculation of evade position", false));
-            MainMenu.AddLabel("allow change of evading path, recommended: Off");
+            MainMenu.Add("tính toán lại vị", new CheckBox("Cho phép tính toán lại vị trí né tránh", false));
+            MainMenu.AddLabel("cho phép thay đổi trốn tránh con đường , đề nghị : Tắt");
             MainMenu.AddSeparator(3);
 
-            MainMenu.Add("moveToInitialPosition", new CheckBox("Move to desired position after evade.", false));
-            MainMenu.AddLabel("move to your desired location after evading");
+            MainMenu.Add("di chuyển đến vị trí ban đầu", new CheckBox("Di chuyển đến vị trí mong muốn sau khi né tránh.", false));
+            MainMenu.AddLabel("di chuyển đến vị trí mong muốn của bạn sau khi trốn");
             MainMenu.AddSeparator(3);
 
-            MainMenu.Add("serverTimeBuffer", new Slider("Server Time Buffer", 0, 0, 200));
-            MainMenu.AddLabel("the extra time it is included during evade calculation");
+            MainMenu.Add("Máy chủ thời gian đệm", new Slider("Máy chủ thời gian đệm", 0, 0, 200));
+            MainMenu.AddLabel("thêm thời gian nó được bao gồm trong tính né tránh");
             MainMenu.AddSeparator();
 
             MainMenu.AddGroupLabel("Humanizer");
-            MainMenu.Add("skillshotActivationDelay", new Slider("Evade delay", 0, 0, 400));
+            MainMenu.Add("kỹ năng bắn Activation trễ", new Slider("né tránh chậm trễ", 0, 0, 400));
             MainMenu.AddSeparator(10);
 
-            MainMenu.Add("extraEvadeRange", new Slider("Extra Evade Range", 0, 0, 300));
+            MainMenu.Add("Thêm né tránh Dải", new Slider("Thêm né tránh Dải", 0, 0, 300));
             MainMenu.Add("randomizeExtraEvadeRange", new CheckBox("Randomize Extra Evade Range", false));
 
             // Set up skillshot menu
@@ -66,7 +66,7 @@ namespace EvadePlus
             skillshots.AddRange(
                 SkillshotDatabase.Database.Where(
                     s =>
-                        s.SpellData.ChampionName == "AllChampions" &&
+                        s.SpellData.ChampionName == "Tất cả Tướng" &&
                         heroes.Any(obj => obj.Spellbook.Spells.Select(c => c.Name).Contains(s.SpellData.SpellName))));
 
             SkillshotMenu = MainMenu.AddSubMenu("Skillshots");
@@ -109,10 +109,10 @@ namespace EvadePlus
             SpellMenu.Add("flash", new Slider("Danger Value", 5, 0, 5));
 
             // Set up draw menu
-            DrawMenu = MainMenu.AddSubMenu("Drawings");
-            DrawMenu.AddGroupLabel("Evade Drawings");
-            DrawMenu.Add("disableAllDrawings", new CheckBox("Disable All Drawings", false));
-            DrawMenu.Add("drawEvadePoint", new CheckBox("Draw Evade Point"));
+            DrawMenu = MainMenu.AddSubMenu("Bản vẽ");
+            DrawMenu.AddGroupLabel("Evade Bản vẽ");
+            DrawMenu.Add("vô hiệu hóa tất cả Bản vẽ", new CheckBox("vô hiệu hóa tất cả Bản vẽ", false));
+            DrawMenu.Add("drawEvadePoint", new CheckBox("vẽ điểm né tránh"));
             DrawMenu.Add("drawEvadeStatus", new CheckBox("Draw Evade Status"));
             DrawMenu.Add("drawDangerPolygon", new CheckBox("Draw Danger Polygon", false));
             DrawMenu.AddSeparator();
