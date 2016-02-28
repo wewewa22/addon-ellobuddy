@@ -1,7 +1,7 @@
 ﻿using EloBuddy;
 using EloBuddy.SDK;
 
-namespace KalistaByKhoNanDemo.Modes
+namespace Hellsing.Kalista.Modes
 {
     public abstract class ModeBase
     {

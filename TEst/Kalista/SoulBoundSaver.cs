@@ -4,9 +4,9 @@ using System.Linq;
 using EloBuddy;
 using EloBuddy.SDK;
 using EloBuddy.SDK.Constants;
-using Settings = KalistaByKhoNanDemo.Kalista.Config.Misc;
+using Settings = Hellsing.Kalista.Config.Misc;
 
-namespace KalistaByKhoNanDemo.Kalista
+namespace Hellsing.Kalista
 {
     public class SoulBoundSaver
     {

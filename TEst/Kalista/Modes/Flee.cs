@@ -5,9 +5,9 @@ using EloBuddy.SDK;
 using EloBuddy.SDK.Events;
 using EloBuddy.SDK.Rendering;
 using SharpDX;
-using Settings = KalistaByKhoNanDemo.Config.Modes.Flee;
+using Settings = Hellsing.Kalista.Config.Modes.Flee;
 
-namespace KalistaByKhoNanDemo.Modes
+namespace Hellsing.Kalista.Modes
 {
     public class Flee : ModeBase
     {

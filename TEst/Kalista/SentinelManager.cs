@@ -4,12 +4,12 @@ using System.Linq;
 using EloBuddy;
 using EloBuddy.SDK;
 using SharpDX;
-using Settings = KalistaByKhoNanDemo.Kalista.Config.Misc.Sentinel;
+using Settings = Hellsing.Kalista.Config.Misc.Sentinel;
 
 // ReSharper disable CompareOfFloatsByEqualityOperator
 // ReSharper disable PossibleMultipleEnumeration
 
-namespace KalistaByKhoNanDemo.Kalista
+namespace Hellsing.Kalista
 {
     public static class SentinelManager
     {

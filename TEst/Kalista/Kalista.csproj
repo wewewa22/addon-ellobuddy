@@ -7,8 +7,8 @@
     <ProjectGuid>{33CBE41A-DEBB-47DA-898B-107F65772E28}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>addon-ellobuddy.KalistaByKhoNanDemo</RootNamespace>
-    <AssemblyName>KalistaByKhoNanDemo</AssemblyName>
+    <RootNamespace>Hellsing.Kalista</RootNamespace>
+    <AssemblyName>Kalista</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <OutputPath>bin\Debug\</OutputPath>
@@ -35,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>KalistaByKhoNanDemo.Kalista.Kalista</StartupObject>
+    <StartupObject>Hellsing.Kalista.Kalista</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -83,7 +83,7 @@
     <Compile Include="Damages.cs" />
     <Compile Include="Extensions.cs" />
     <Compile Include="ItemManager.cs" />
-    <Compile Include="Kalista.cs" />
+    <Compile Include="KalistaByKhoNan.cs" />
     <Compile Include="ModeLogic.cs" />
     <Compile Include="Modes\Combo.cs" />
     <Compile Include="Modes\Flee.cs" />

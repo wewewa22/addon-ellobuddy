@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using EloBuddy;
-using KalistaByKhoNanDemo.Kalista.Modes;
+using Hellsing.Kalista.Modes;
 
-namespace KalistaByKhoNanDemo.Kalista
+namespace Hellsing.Kalista
 {
     public class ModeLogic
     {

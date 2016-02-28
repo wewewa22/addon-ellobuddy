@@ -1,7 +1,7 @@
 ﻿using EloBuddy;
 using EloBuddy.SDK;
 
-namespace KalistaByKhoNanDemo
+namespace Hellsing.Kalista
 {
     public static class Damages
     {

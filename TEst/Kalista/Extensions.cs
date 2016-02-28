@@ -3,7 +3,7 @@ using System.Linq;
 using EloBuddy;
 using EloBuddy.SDK;
 
-namespace KalistaByKhoNanDemo.Kalista
+namespace Hellsing.Kalista
 {
     public static class Extensions
     {

@@ -1,8 +1,8 @@
 ﻿using EloBuddy;
 using EloBuddy.SDK;
-using Settings = KalistaByKhoNanDemo.Kalista.Config.Items;
+using Settings = Hellsing.Kalista.Config.Items;
 
-namespace KalistaByKhoNanDemo.Kalista
+namespace Hellsing.Kalista
 {
     public class ItemManager
     {

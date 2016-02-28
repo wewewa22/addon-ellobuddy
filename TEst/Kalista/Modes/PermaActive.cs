@@ -2,9 +2,9 @@
 using System.Linq;
 using EloBuddy;
 using EloBuddy.SDK;
-using Settings = KalistaByKhoNanDemo.Config.Misc;
+using Settings = Hellsing.Kalista.Config.Misc;
 
-namespace KalistaByKhoNanDemo.Modes
+namespace Hellsing.Kalista.Modes
 {
     public class PermaActive : ModeBase
     {

@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using EloBuddy;
 using EloBuddy.SDK;
-using Settings = KalistaByKhoNanDemo.Config.Modes.Combo;
+using Settings = Hellsing.Kalista.Config.Modes.Combo;
 
-namespace KalistaByKhoNanDemo.Modes
+namespace Hellsing.Kalista.Modes
 {
     public class Combo : ModeBase
     {

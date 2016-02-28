@@ -1,8 +1,8 @@
 ﻿using System.Linq;
 using EloBuddy.SDK;
-using Settings = KalistaByKhoNanDemo.Config.Modes.JungleClear;
+using Settings = Hellsing.Kalista.Config.Modes.JungleClear;
 
-namespace KalistaByKhoNanDemo.Modes
+namespace Hellsing.Kalista.Modes
 {
     public class JungleClear : ModeBase
     {

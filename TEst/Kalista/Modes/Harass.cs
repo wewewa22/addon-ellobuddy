@@ -1,8 +1,8 @@
 ﻿using EloBuddy;
 using EloBuddy.SDK;
-using Settings = KalistaByKhoNanDemo.Config.Modes.Harass;
+using Settings = Hellsing.Kalista.Config.Modes.Harass;
 
-namespace KalistaByKhoNanDemo.Modes
+namespace Hellsing.Kalista.Modes
 {
     public class Harass : ModeBase
     {

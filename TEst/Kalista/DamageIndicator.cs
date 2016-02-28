@@ -5,7 +5,7 @@ using EloBuddy.SDK;
 using SharpDX;
 using Color = System.Drawing.Color;
 
-namespace KalistaByKhoNanDemo.Kalista
+namespace Hellsing.Kalista
 {
     public static class DamageIndicator
     {

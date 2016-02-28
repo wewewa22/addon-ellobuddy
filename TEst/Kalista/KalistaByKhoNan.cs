@@ -7,7 +7,7 @@ using EloBuddy.SDK.Events;
 using EloBuddy.SDK.Rendering;
 using EloBuddy.SDK.Utils;
 
-namespace KalistaByKhoNanDemo.Kalista
+namespace Hellsing.Kalista
 {
     public class Kalista
     {

@@ -4,7 +4,7 @@ using EloBuddy.SDK;
 using EloBuddy.SDK.Enumerations;
 using SharpDX;
 
-namespace KalistaByKhoNanDemo.Kalista
+namespace Hellsing.Kalista
 {
     public static class SpellManager
     {

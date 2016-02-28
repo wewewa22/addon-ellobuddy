@@ -8,7 +8,7 @@ using EloBuddy.SDK.Menu.Values;
 // ReSharper disable InconsistentNaming
 // ReSharper disable MemberHidesStaticFromOuterClass
 
-namespace KalistaByKhoNanDemo.Kalista
+namespace Hellsing.Kalista
 {
     public static class Config
     {

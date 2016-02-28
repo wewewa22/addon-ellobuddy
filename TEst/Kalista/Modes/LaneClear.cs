@@ -1,8 +1,8 @@
 ﻿using System.Linq;
 using EloBuddy.SDK;
-using Settings = KalistaByKhoNanDemo.Config.Modes.LaneClear;
+using Settings = Hellsing.Kalista.Config.Modes.LaneClear;
 
-namespace KalistaByKhoNanDemo.Modes
+namespace Hellsing.Kalista.Modes
 {
     public class LaneClear : ModeBase
     {

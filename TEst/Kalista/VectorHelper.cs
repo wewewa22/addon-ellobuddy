@@ -5,7 +5,7 @@ using EloBuddy;
 using EloBuddy.SDK;
 using SharpDX;
 
-namespace KalistaByKhoNanDemo.Kalista
+namespace Hellsing.Kalista
 {
     public class VectorHelper
     {
