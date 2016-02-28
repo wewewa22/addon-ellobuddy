@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DCFA6DB3-F917-4C8E-9D1D-75868EABD786}</ProjectGuid>
+    <ProjectGuid>{33CBE41A-DEBB-47DA-898B-107F65772E28}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Hellsing.Kalista</RootNamespace>
