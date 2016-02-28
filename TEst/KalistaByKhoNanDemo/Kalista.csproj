@@ -7,8 +7,8 @@
     <ProjectGuid>{33CBE41A-DEBB-47DA-898B-107F65772E28}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>KalistaByKhoNanDemo.Kalista</RootNamespace>
-    <AssemblyName>Kalista</AssemblyName>
+    <RootNamespace>addon-ellobuddy.KalistaByKhoNanDemo</RootNamespace>
+    <AssemblyName>KalistaByKhoNanDemo</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <OutputPath>bin\Debug\</OutputPath>
